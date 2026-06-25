@@ -12,7 +12,7 @@ const services = [
   { icon: "🛍️", title: "Shopify Customization", desc: "Professional Shopify store design and configuration." },
   { icon: "🚀", title: "Landing Page Design", desc: "High-converting landing pages that drive results." },
   { icon: "🔧", title: "Bug Fixing", desc: "Fast diagnosis and resolution of website issues." },
-  { icon: "🔍", title: "SEO Optimization", desc: "Search engine friendly websites that rank higher." },
+  { icon: "🔍", title: "React developer", desc: "  User friendly websites that rank higher me." },
 ];
 
 const navLinks = ["Home", "About", "Services", "Contact"];
@@ -347,6 +347,7 @@ export default function App() {
         <div style={styles.heroButtons}>
           <button style={styles.btnPrimary} onClick={() => scrollTo("contact")}>Hire Me</button>
           <button style={styles.btnOutline} onClick={() => scrollTo("services")}>My Services</button>
+          
         </div>
        <div style={styles.socials}>
   <a
@@ -360,7 +361,7 @@ export default function App() {
   </a>
 
   <a
-    href="#"
+    href="https://www.instagram.com/mdsohel39218/"
     className="social-link"
     style={styles.socialLink}
   >
@@ -368,7 +369,7 @@ export default function App() {
   </a>
 
   <a
-    href="#"
+    href="https://www.linkedin.com/in/md-sohel-rana-554bb0414"
     className="social-link"
     style={styles.socialLink}
   >
@@ -431,11 +432,11 @@ export default function App() {
             {/* Info side */}
             <div style={styles.contactCard}>
               <h3 style={{ fontSize: 20, fontWeight: 600, marginBottom: 20 }}>Get In Touch</h3>
-              <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noreferrer" style={styles.whatsappBtn}>
+              <a href="https://wa.me/8801816066829?text=Hello%20Sohel" target="_blank" rel="noreferrer"style={styles.whatsappBtn}>
                 💬 Chat on WhatsApp
               </a>
               <div style={styles.contactInfo}>
-                {[["📧", "Email", "sohelrana@email.com"], ["📍", "Location", "Bangladesh"], ["⏰", "Response", "Within 24 hours"]].map(([icon, label, val]) => (
+                {[["📧", "Email", "soheljan25@gmail.com"], ["📍", "Location", "Bangladesh"], ["⏰", "Response", "Within 24 hours"]].map(([icon, label, val]) => (
                   <div key={label} style={styles.contactItem}>
                     <div style={styles.contactIcon}>{icon}</div>
                     <div><div style={{ fontWeight: 500, fontSize: 13, marginBottom: 2 }}>{label}</div><div>{val}</div></div>
